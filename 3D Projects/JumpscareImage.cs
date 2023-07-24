@@ -8,7 +8,7 @@ public class Jumpscare : MonoBehaviour
 
     void Start()
     {
-        jumpscareImg.SetActive(false);
+        disableImage();
     }
 
     private IEnumerator OnTriggerEnter(Collider other)
